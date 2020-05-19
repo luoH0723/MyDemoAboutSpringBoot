@@ -22,6 +22,17 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    //登录方法
+    @PostMapping("/login")
+    public String login(String username,String password){
+        User loginUser = userService.login(username,password);
+        if(loginUser!=null){
+            return "redirect:/emp/findAll";//跳转到查询所有
+        }else{
+            return "redirect:/index";//跳转到登录界面
+        }
+    }
+
     //注册方法
     @PostMapping("/register")
     public String register(User user,String code,HttpSession session){
@@ -30,7 +41,7 @@ public class UserController {
             userService.register(user);
             return  "redirect:/index";//跳转到登录界面
         }else{
-            return  "redirect:/toRegister";//跳转到登录界面
+            return  "redirect:/toRegister";//跳转到注册界面
         }
 
     }
