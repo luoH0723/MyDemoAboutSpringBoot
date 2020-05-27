@@ -24,9 +24,10 @@ public class UserController {
 
     //登录方法
     @PostMapping("/login")
-    public String login(String username,String password){
+    public String login(String username,String password,HttpSession session){
         User loginUser = userService.login(username,password);
         if(loginUser!=null){
+            session.setAttribute("user",loginUser);
             return "redirect:/emp/findAll";//跳转到查询所有
         }else{
             return "redirect:/index";//跳转到登录界面
