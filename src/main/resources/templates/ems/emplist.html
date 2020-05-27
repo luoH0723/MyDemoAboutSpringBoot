@@ -67,12 +67,13 @@
 								<span th:text="${#dates.format(emp.bir,'yyyy-MM-dd')}"/>
 							</td>
 							<td>
-								<a href="emplist.html">delete emp</a>&nbsp;<a href="updateEmp.html">update emp</a>
+								<a th:href="@{/emp/delete(id=${emp.id})}">delete emp</a>&nbsp;
+								<a th:href="@{/emp/find(id=${emp.id})}">update emp</a>
 							</td>
 						</tr>
 					</table>
 					<p>
-						<input type="button" class="button" value="Add Employee" onclick="location='addEmp.html'"/>
+						<input type="button" class="button" value="Add Employee" onclick="location.href='/ems/toSave'"/>
 					</p>
 				</div>
 			</div>

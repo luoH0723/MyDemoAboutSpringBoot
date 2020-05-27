@@ -25,21 +25,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e80201-d748-4287-840a-3c5bffecbeca" name="Default Changelist" comment="add regist page and something">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/EmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/dao/EmpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/EmpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/serviceimpl/EmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+    <list default="true" id="a4e80201-d748-4287-840a-3c5bffecbeca" name="Default Changelist" comment="add login page and emp show page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/serviceimpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/serviceimpl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/EmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/dao/EmpDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/dao/EmpDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/EmpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/EmpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/serviceimpl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhstudy/service/serviceimpl/EmpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ems/addEmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ems/addEmp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ems/emplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ems/emplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ems/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ems/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ems/updateEmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ems/updateEmp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lhstudy/controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lhstudy/controller/EmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lhstudy/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lhstudy/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lhstudy/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lhstudy/dao/EmpDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lhstudy/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lhstudy/service/EmpService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lhstudy/service/serviceimpl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lhstudy/service/serviceimpl/EmpServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ems/addEmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ems/addEmp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ems/emplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ems/emplist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ems/updateEmp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ems/updateEmp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,53 +153,54 @@
     <MESSAGE value="my first push" />
     <MESSAGE value="add some config and sql" />
     <MESSAGE value="add regist page and something" />
-    <option name="LAST_COMMIT_MESSAGE" value="add regist page and something" />
+    <MESSAGE value="add login page and emp show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login page and emp show page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="952" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1589878191226">
+    <state x="952" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1590561852361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="952" y="411" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589878191226" />
-    <state width="974" height="282" key="GridCell.Tab.0.bottom" timestamp="1589879367564">
+    <state x="952" y="411" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590561852361" />
+    <state width="636" height="282" key="GridCell.Tab.0.bottom" timestamp="1590561382454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.0.center" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382454" />
+    <state width="636" height="282" key="GridCell.Tab.0.center" timestamp="1590561382453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.0.left" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382453" />
+    <state width="636" height="282" key="GridCell.Tab.0.left" timestamp="1590561382453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.0.right" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382453" />
+    <state width="636" height="282" key="GridCell.Tab.0.right" timestamp="1590561382454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.1.bottom" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382454" />
+    <state width="636" height="282" key="GridCell.Tab.1.bottom" timestamp="1590561382455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.1.center" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382455" />
+    <state width="636" height="282" key="GridCell.Tab.1.center" timestamp="1590561382454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.1.left" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382454" />
+    <state width="636" height="282" key="GridCell.Tab.1.left" timestamp="1590561382454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state width="974" height="282" key="GridCell.Tab.1.right" timestamp="1589879367564">
+    <state width="636" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382454" />
+    <state width="636" height="282" key="GridCell.Tab.1.right" timestamp="1590561382455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="974" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589879367564" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589790063337">
+    <state width="636" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590561382455" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589879723902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790063337" />
-    <state x="616" y="306" key="git4idea.merge.GitPullDialog" timestamp="1589790055437">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589879723902" />
+    <state x="616" y="306" key="git4idea.merge.GitPullDialog" timestamp="1589879711036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589790055437" />
+    <state x="616" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589879711036" />
     <state x="334" y="180" key="new project wizard" timestamp="1589778174196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
